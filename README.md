@@ -1,1 +1,1 @@
-# Repo de Sistemas Operativos
+# REPOSITORIO SISTEMA OPERATIVO 2026
