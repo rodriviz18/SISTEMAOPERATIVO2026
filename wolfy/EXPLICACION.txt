@@ -1,0 +1,19 @@
+#PROYECTO DJANGO - WOLFY "Hola mundo"
+
+##PASOS REALIZADOS:
+
+1-#ENTORNO VIRTUAL# - Se creo un entorno con python -m venv env y se activa con 'source env/bin/activate'
+2-#INSTALACIÓN# - Se instalo django mediante el comando 'pip install django'
+3-#ESTRUCTURA DEL PROYECTO# - Se inicio el proyecto con: 'django-admin startproject wolfy'.
+  -Se creó la aplicación funcional: 'python3 manage.py startapp inicio'
+4-#Configuración#
+-Vista: Se creo una función 'hola mundo' en 'inicio/views.py' que devuelve un 'httpresponse'.
+-URLs de la app: Se creó 'inicio/urls.py' para mapear la función a una ruta vacia.
+-URLs globales: Se modificó 'wolfy/urls.py' usando 'include' para conectar las rutas de la app.
+-Settings: Se registró la app 'inicio' en la lista de 'INSTALLED APPS' dentro de 'wolfy/settings.ṕy'.
+
+##Cómo ejecutarlo:
+
+1-Activar el entorno: 'source env/bin/activate'
+2-Correr el servidor: 'python3 manage.py runserver'
+3-Abrir el navegador e ingresar la direccion IP.
